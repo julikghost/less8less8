@@ -90,16 +90,13 @@ padding-bottom: 30px; /*отсутпы*/
 color: #FFF;
 font-size: 120px;
 font-weight: bold; 
-margin-bottom: 35px;/*https://www.youtube.com/watch?v=aq0PiH0qSvg&feature=player_embedded c 11 40 минуты про  отступы. ОТступ перед следующим элементом */
+margin-bottom: 35px;
 }
-.banner hr
-{
- 	width:600px;
+.banner hr { 	width:600px;
 	height:2px;
 	margin-bottom: 40px; 
     }   
-.banner p
-{
+.banner p {
 font-size: 20px;
 color:#FFF;
 margin-bottom: 65px;
@@ -260,23 +257,26 @@ vertical-align: center;
 text-align: left;
 padding-left: 18px;/*отступ текста от края формы */
   }
- .send{
+ 
 
- 	width:562px; /*так чтоб кнопки занимали только это место и не ехали*/
- 	margin: 0 auto; 
- }
+.send{
+	width:562px;
+	margin:0 auto;
+}
 
-.send p
+.send label
 	{
+
+font-family: "Lato";
 font-size: 15px;
 color: #999;
 line-height: 1.2;
 text-align: left;/*выравнивание чекбокса  с текстом по левому краю */
- 	}		
+ 	}
+
 
 .send input[type="submit"]
 {
-display: inline-block;	
 border:1px solid #15a4fa;
 border-radius: 5%;
 background: transparent;
@@ -285,30 +285,27 @@ min-height: 50px;
 font-size: 15px;
 color:#FFF;
 text-align: center;
-float: right;/*вырвнивание кнопки по правому краю блока класса send  */
+float: right;
 }
+
+
 .footer
 {
 display: inline;/*отображает блоки футера одной строкой*/
 background:#f9f9f9;
-margin: 0 auto;
 }
-.footer p
-{
-
+.footer p{
 font-family: "Lato";
 font-size: 15px;
 color: #999;
  text-align: left; /*выравнивание по левому краю*/
  padding-top: 38px; /* отступ от фона* выравнивает по центру относительно списка т.к. применено свойство для футера display: inline;*/
-padding-bottom: 40px;/* отступ от фона и бла бла как выше только снизу*/
 }
 .footer  li 
 {
-display: inline-block;
 float: right;/*выравнивание списка по правому краю*/
 margin-right: 10px;/*отступы межу иконками*/
-padding-top: 26px;/*отступ от фона. применяяется тут так как применено свойство для футера display: inline; */
-padding-bottom: 25px;/*отступ от фона -/-/-*/
+padding-bottom: 40px;/* отступ от фона и бла бла как выше только снизу*/
+
 }
 
