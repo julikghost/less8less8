@@ -118,27 +118,23 @@ margin-bottom: 175px;/*отступ до кнопки-стрелочки*/
 .text 
 {
 font-family: "Lato";
-min-height: 340px;
 text-align: center;
 padding-top: 80px; /* верхний отступ  заголовка*/
 background:#f6f9f9;
-/*padding-bottom: */
+padding-bottom:110px;
 }
-.text h1
-{   
+.text h1{   
 	font-size: 40px;
 	color:#000;
 	line-height:1.2;
 	margin-bottom: 30px;/*https://www.youtube.com/watch?v=aq0PiH0qSvg&feature=player_embedded c 11 40 минуты про  отступы*/
 	 }
-.text p
-{
+.text p{
 font-size: 20px;
 color: #999;
 line-height: 1.6;
   }
- .feature
- {
+ .feature {
  background-color: #FFF;
  font-family: "Lato";
  text-align: center;
@@ -150,18 +146,15 @@ width: 33.1%;
 display: inline-block;
 text-align: center;
    }
-.feature img
-{
+.feature img {
 margin-bottom: 20px;
 	}
- .feature h2
-{
+ .feature h2 {
   font-size: 22px;
  line-height: 1.2;
 margin-bottom: 30px;
   }
-.feature p
-{
+.feature p{
 	font-size: 15px;
 	color: #999;
 line-height: 1.4; 
@@ -172,8 +165,7 @@ background-color:#f6f9f9;
  padding-bottom: 115px;
   text-align: center;
 }
-.portfolio h1
-{
+.portfolio h1 {
 	font-family:"Lato";
 	font-size: 41px;
 	color:#000;
@@ -181,73 +173,65 @@ background-color:#f6f9f9;
 	text-align:center;
 	margin-bottom: 30px; /*ОТСТУП ДО Абзца*/
 	}
-.portfolio p
-	{
+.portfolio p	{
 	font-family:"Lato";
 	font-size: 15px;
 	color:#999;
 	text-align:center;
 	margin-bottom: 83px;/* отступ до галереи*/
-	
-}
+	}
 .gallery{	
 	margin: 0 auto;
 			}/*убрала text -align center*/
 
-.gallery  img
-{
+.gallery  img {
 	display: inline-block;
 	width:32%;
 	margin: 0px 12px 12px 0;
 		} 
-		
 /*.img1:hover img {width: 1000px; height: 600px}*/
-.form
-{
+.form {
 	background-image: url(images/form1.png);
     background-repeat:no-repeat;
     background-size:cover; 
-    width: 100%;
     font-family: "Lato";
     text-align: center;
     padding-top:80px;/*отступ заголовка от "ФОНА""*/
     padding-bottom: 100px;
-    margin: 0 auto;
-    max-width: 560px;
-    width: 100%;
-}
-.form h1
-{
+    }
+    .form form{
+    	min-height: 385px; 
+    }
+ .form h1 {
 font-size: 40px;
 color: #fff;
 margin-bottom: 28px;/*отступ до абзаца*/
 }
-.form p
-{
+.form p {
 font-size: 15px;
 color: #999;
 margin-bottom: 52px; /*отступ до первого поля*/
 }
 
-.field input, .field textarea
-{
-	display: block;
+.field input, .field textarea{
+display: block;
 border:1px solid #999;
 background: transparent;
 border-radius: 2%;
-margin-bottom:  20px; /*растояние между полями*/
+margin:auto;
+max-width: 560px;
+width: 50%;
 }
-.field input 
-{
+.field input {
 min-height:60px;
+margin-bottom: 20px;
 } 
-.field textarea
-{
+.field textarea {
 min-height:160px;
 resize: none; /* не меняет размер поля  */
+margin-bottom: 20px;
 } 
-.field input[type="text"]::placeholder, .field input[type="email"]::placeholder, .field textarea::placeholder
-{
+.field input[type="text"]::placeholder, .field input[type="email"]::placeholder, .field textarea::placeholder {
 font-family: "Lato";
 font-size: 15px;
 line-height: 1.2;
@@ -256,18 +240,12 @@ vertical-align: center;
 text-align: left;
 padding-left: 18px;/*отступ текста от края формы */
   }
- 
-
-.send{
-	width:50%;
-
+ .send{
+width:50%;
 float: left;
 text-align: left;
 }
-
-.send label
-	{
-
+.send label	{
 font-family: "Lato";
 font-size: 15px;
 color: #999;
@@ -275,9 +253,7 @@ line-height: 1.2;
 text-align: left;/*выравнивание чекбокса  с текстом по левому краю */
 width: 70%;
  	}
-
-.send input[type="submit"]
-{
+.send input[type="submit"]{
 border:1px solid #15a4fa;
 border-radius: 5%;
 background: transparent;
@@ -288,14 +264,11 @@ color:#FFF;
 text-align: center;
 float: right;
 }
-
-.footer
-{
+.footer{
 background:#f9f9f9;
 padding-bottom: 40px;/* отступ от фона и бла бла как выше только снизу*/
 padding-top: 40px; /* отступ от фона* выравнивает по центру относительно списка т.к. применено свойство для футера display: inline;*/
- width: 70%;
-clear: both;
+ width: 100%;
 }
 .footer p{
 	width: 70%;
@@ -303,11 +276,9 @@ font-family: "Lato";
 font-size: 15px;
 color: #999;
  text-align: left; /*выравнивание по левому краю*/
- 
- float: left;
+  float: left;
 }
-.footer  li 
-{
+.footer  li {
 float: right;/*выравнивание списка по правому краю*/
 margin-right: 10px;/*отступы межу иконками*/
 }
